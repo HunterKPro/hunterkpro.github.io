@@ -18,4 +18,6 @@ ul{margin; 0;
 padding:0;
 list-style: none;}
 il{display: block;}
-#nav ul
+#nav ul {
+    text-align: center;
+}
