@@ -2,6 +2,16 @@ body{padding:0px;
   margin:0 auto;
   border:0;
 }
+
+/**** begin clearfix ****/
+.cf:before, .cf:after {content: ' ';display: table;}
+.cf:after {clear: both;}
+
+.cf>.fl {float: left;}
+.cf>.fr {float: right;}
+/**** end clearfix ****/
+
+
 #hdr{background-color: #ffee11;}
 #ftr{background-color: rgb(202,189,205);}
 
