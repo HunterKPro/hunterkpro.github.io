@@ -21,8 +21,8 @@ li{display: block;}
 #nav ul {
     text-align: center;
 }
-#ctu ul{text-align: center;
-display:inline-block;
+#cta ul{text-align: center;}
+#cta li{display:inline-block;
 width:76px;
 height:76px;}
 
