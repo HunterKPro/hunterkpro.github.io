@@ -17,7 +17,7 @@ body{padding:0px;
 ul{margin; 0;
 padding:0;
 list-style: none;}
-il{display: block;}
+li{display: block;}
 #nav ul {
     text-align: center;
 }
