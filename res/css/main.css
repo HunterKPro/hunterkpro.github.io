@@ -1,3 +1,6 @@
-body{padding:0px;}
+body{padding:0px;
+  margin:0 auto;
+  border:0;
+}
 #hdr{background-color: #ffee11;}
 
