@@ -17,12 +17,12 @@ body{padding:0px;
 ul{margin; 0;
 padding:0;
 list-style: none;}
-il{display: block;}
+li{display: block;}
 #nav ul {
     text-align: center;
 }
-#ctu ul{text-align: center;
-display:inline-block;
+#cta ul{text-align: center;}
+#cta li{display:inline-block;
 width:76px;
 height:76px;}
 
