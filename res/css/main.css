@@ -25,7 +25,7 @@ li{display: block;}
 #cta li{display:inline-block;
 width:76px;
 height:76px;} 
-#cta a:before{font-size:48px: line-height:1;display:block;margin:0 auto 4px; text-align:center;}
+#cta a:before{font-size:48px; line-height:1;display:block;margin:0 auto 4px; text-align:center;}
 
 #nav ul {margin:0 auto;}
 #nav li {margin:0 auto;}
