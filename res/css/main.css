@@ -37,6 +37,7 @@ height:76px;}
 #hero li
 {height:320px; overflow:hidden; text-align:center;}
 
+.cards	{margin:0 8px;}
 .cards li {box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
 .cards strong {display:block; margin:8px auto;}
