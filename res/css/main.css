@@ -79,6 +79,8 @@ height:76px;}
 
 @media screen and (min-width: 960px) {
 	/*.cards strong:before	{height:320px;}*/
+	.cards li	{width:400px;}
+	.cards strong:before	{height:300px;}
 }
 
 @media screen and (min-width: 1024px) {}
