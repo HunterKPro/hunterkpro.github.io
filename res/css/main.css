@@ -1,6 +1,7 @@
 body{padding:0px;
   margin:0 auto;
   border:0;
+  background:#ffffff url(../img/bg-coast.jpg) center bottom no-repeat;
 }
 
 /**** begin clearfix ****/
@@ -35,13 +36,13 @@ height:76px;}
 
 #ftr-nav a {display:block;}
 #hero li
-{height:320px; overflow:hidden; text-align:center;}
+{height:320px; width:100%; overflow:hidden; text-align:center;}
 
-.cards	{margin:0 8px;}
-.cards li {box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
+.cards	{margin:0 4px; text-align:center;}
+.cards li {margin:4px; text-align:left; background:#fff0f0; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
-.cards strong {display:block; margin:8px auto;}
-.cards strong:before  {display:block; height:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top; background-size:auto 100%;}
+.cards strong {display:block; margin:0px auto /*8px*/;}
+.cards strong:before  {display:block; height:144px; width:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%; text-align:center;}
 
 	.cards .c-1460 strong:before	{background-image:url(../img/1460.jpg);}
 	.cards .c-1461 strong:before	{background-image:url(../img/1461.jpg);}
@@ -58,6 +59,8 @@ height:76px;}
 .cards a {display:block; clear:both; background-color:rgb(114, 98, 119); color:#ffffff;}
 .cards a:hover {background-color:rgb(192, 128, 192);}
 
+.cards em, .cards a	{display:none;}	/* comment/remove this if adding text +alex */
+
 #hero img {max-height:320px; height:320px; width:auto;}
 
 
@@ -70,9 +73,15 @@ height:76px;}
 
 @media screen and (min-width: 640px) {
 	/*#hero img {max-width:100%; height:auto; width:100%;}*/
+	.cards li	{width:320px; display:inline-block;}
+	.cards strong:before	{height:240px;}
 }
 
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+	/*.cards strong:before	{height:320px;}*/
+	.cards li	{width:400px;}
+	.cards strong:before	{height:300px;}
+}
 
 @media screen and (min-width: 1024px) {}
 
