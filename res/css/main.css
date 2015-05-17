@@ -39,10 +39,10 @@ height:76px;}
 {height:320px; width:100%; overflow:hidden; text-align:center;}
 
 .cards	{margin:0 4px; text-align:center;}
-.cards li {margin:4px; text-align:left; background:#fff0f0; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
+.cards li {margin:4px; text-align:left; min-width:160px; background:#fff0f0; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
 .cards strong {display:block; margin:0px auto /*8px*/;}
-.cards strong:before  {display:block; height:144px; width:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%; text-align:center;}
+.cards strong:before  {display:block; height:120px; width:auto; min-height:120px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%; text-align:center;}
 
 	.cards .c-1460 strong:before	{background-image:url(../img/1460.jpg);}
 	.cards .c-1461 strong:before	{background-image:url(../img/1461.jpg);}
@@ -65,7 +65,9 @@ height:76px;}
 
 
 /**** SCALE IT UP ****/
-@media screen and (min-width: 320px) {}
+@media screen and (min-width: 320px) {
+	.cards strong:before	{height:144px;}
+}
 
 @media screen and (min-width: 400px) {
 	.cards strong:before	{height:168px;}
