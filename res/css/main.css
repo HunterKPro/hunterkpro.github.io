@@ -42,14 +42,14 @@ height:76px;}
 .cards strong {display:block; margin:8px auto;}
 .cards strong:before  {display:block; height:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top; background-size:auto 100%;}
 
-	.cards .c-1460 .strong:before	{background-image:url(../img/1460.jpg);}
-	.cards .c-1461 .strong:before	{background-image:url(../img/1461.jpg);}
-	.cards .c-1468 .strong:before	{background-image:url(../img/1468.jpg);}
-	.cards .c-1479 .strong:before	{background-image:url(../img/1479.jpg);}
-	.cards .c-1481 .strong:before	{background-image:url(../img/1481.jpg);}
-	.cards .c-1483 .strong:before	{background-image:url(../img/1483.jpg);}
-	.cards .c-1485 .strong:before	{background-image:url(../img/1485.jpg);}
-	.cards .c-1509 .strong:before	{background-image:url(../img/1509.jpg);}
+	.cards .c-1460 strong:before	{background-image:url(../img/1460.jpg);}
+	.cards .c-1461 strong:before	{background-image:url(../img/1461.jpg);}
+	.cards .c-1468 strong:before	{background-image:url(../img/1468.jpg);}
+	.cards .c-1479 strong:before	{background-image:url(../img/1479.jpg);}
+	.cards .c-1481 strong:before	{background-image:url(../img/1481.jpg);}
+	.cards .c-1483 strong:before	{background-image:url(../img/1483.jpg);}
+	.cards .c-1485 strong:before	{background-image:url(../img/1485.jpg);}
+	.cards .c-1509 strong:before	{background-image:url(../img/1509.jpg);}
 
 .cards em {display:block; margin:8px auto; padding-top:8px; border-top:1px solid rgb(114, 98, 119);}
 .cards em:before  {display:inline-block; float:left; width:36px; height:36px; margin-right:8px; background:rgb(114, 98, 119); content:' '; overflow:hidden;}
