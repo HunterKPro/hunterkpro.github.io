@@ -1,3 +1,4 @@
+body, table	{font-size:100%; font-family:sans-serif;}
 body{padding:0px;
   margin:0 auto;
   border:0;
@@ -28,7 +29,7 @@ width:76px;
 height:76px;
 	background:#fff0f0; border-radius:100%; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);
 }
-#cta a	{}
+#cta a	{font-size:10px;}
 #cta a:before{font-size:48px; line-height:1;display:block;margin:0 auto 4px; text-align:center;}
 
 #nav ul {margin:0 auto;}
