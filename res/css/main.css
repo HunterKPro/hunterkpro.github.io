@@ -1,6 +1,7 @@
 body{padding:0px;
   margin:0 auto;
   border:0;
+  background:#ffffff url(../img/bg-coast.jpg) center bottom no-repeat;
 }
 
 /**** begin clearfix ****/
@@ -41,7 +42,7 @@ height:76px;}
 .cards li {box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
 .cards strong {display:block; margin:8px auto;}
-.cards strong:before  {display:block; height:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top; background-size:auto 100%;}
+.cards strong:before  {display:block; height:auto; min-height:128px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%;}
 
 	.cards .c-1460 strong:before	{background-image:url(../img/1460.jpg);}
 	.cards .c-1461 strong:before	{background-image:url(../img/1461.jpg);}
