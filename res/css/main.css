@@ -49,17 +49,22 @@ height:80px;
 .cards	{margin:0 4px; text-align:center;}
 .cards li {margin:4px; text-align:left; min-width:160px; background:#fff0f0; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
-.cards strong {display:block; margin:0px auto /*8px*/;}
-.cards strong:before  {display:block; height:120px; width:auto; min-height:120px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%; text-align:center;}
+.cards strong {
+	display:block; margin:0px auto /*8px*/;
+	height:120px; width:auto; min-height:120px;
+	background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%;
+	text-indent:-999em;
+}
+/*.cards strong:before  {display:block; height:120px; width:auto; min-height:120px; content:' '; background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%; text-align:center;}*/
 
-	.cards .c-1460 strong:before	{background-image:url(../img/1460.jpg);}
-	.cards .c-1461 strong:before	{background-image:url(../img/1461.jpg);}
-	.cards .c-1468 strong:before	{background-image:url(../img/1468.jpg);}
-	.cards .c-1479 strong:before	{background-image:url(../img/1479.jpg);}
-	.cards .c-1481 strong:before	{background-image:url(../img/1481.jpg);}
-	.cards .c-1483 strong:before	{background-image:url(../img/1483.jpg);}
-	.cards .c-1485 strong:before	{background-image:url(../img/1485.jpg);}
-	.cards .c-1509 strong:before	{background-image:url(../img/1509.jpg);}
+	.cards .c-1460 strong	{background-image:url(../img/1460.jpg);}
+	.cards .c-1461 strong	{background-image:url(../img/1461.jpg);}
+	.cards .c-1468 strong	{background-image:url(../img/1468.jpg);}
+	.cards .c-1479 strong	{background-image:url(../img/1479.jpg);}
+	.cards .c-1481 strong	{background-image:url(../img/1481.jpg);}
+	.cards .c-1483 strong	{background-image:url(../img/1483.jpg);}
+	.cards .c-1485 strong	{background-image:url(../img/1485.jpg);}
+	.cards .c-1509 strong	{background-image:url(../img/1509.jpg);}
 
 .cards em {display:block; margin:8px auto; padding-top:8px; border-top:1px solid rgb(114, 98, 119);}
 .cards em:before  {display:inline-block; float:left; width:36px; height:36px; margin-right:8px; background:rgb(114, 98, 119); content:' '; overflow:hidden;}
