@@ -23,6 +23,7 @@ li{display: block; margin:0 auto; padding:0;}
 #nav ul {
     text-align: center;
 }
+#cta	{margin:8px auto;}
 #cta ul{text-align: center;}
 #cta li{display:inline-block; vertical-align:middle;
 width:80px;
