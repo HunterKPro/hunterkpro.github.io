@@ -16,10 +16,10 @@ body{padding:0px;
 
 #hdr{background-color: #c080c0;}
 #ftr{background-color: rgb(202,189,205);}
-ul{margin; 0;
+ul{margin; 0 auto;
 padding:0;
 list-style: none;}
-li{display: block;}
+li{display: block; margin:0 auto; padding:0;}
 #nav ul {
     text-align: center;
 }
@@ -74,7 +74,7 @@ height:80px;
 
 .cards em, .cards a	{display:none;}	/* comment/remove this if adding text +alex */
 
-#hero img {max-height:320px; height:320px; width:auto;}
+#hero img {max-height:480px; height:320px; width:auto;}
 
 
 /**** SCALE IT UP ****/
@@ -97,6 +97,8 @@ height:80px;
 }
 
 @media screen and (min-width: 800px) {
+	#hero li	{height:480px;}
+	#hero img	{height:480px;}
 	.cards li	{width:320px;}
 	.cards strong	{height:240px;}
 }
