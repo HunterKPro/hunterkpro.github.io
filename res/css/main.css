@@ -13,6 +13,7 @@ body{padding:0px;
 .cf>.fr {float: right;}
 /**** end clearfix ****/
 
+.wr	{margin:0 auto; padding:0; max-width:960px;}
 
 #hdr{background-color: #c080c0;}
 #ftr{background-color: rgb(202,189,205);}
@@ -36,7 +37,7 @@ height:80px;
 #cta li:hover	{background-color:rgb(192, 128, 192); color:#ffffff;}
 #cta li:hover a, #cta a:hover	{color:#ffffff;}
 
-
+#nav	{vertical-align:middle;}
 #nav ul {margin:0 auto;}
 #nav li {margin:0 auto;}
 #nav li+li {margin-top:1px;}
@@ -92,6 +93,9 @@ height:80px;
 }
 
 @media screen and (min-width: 640px) {
+	#nav.cf #logo	{float:left; display:inline-block;}
+	#nav.cf ul	{float:right; display:inline-block;}
+	#nav.cf li	{display:inline-block;}
 	/*#hero img {max-width:100%; height:auto; width:100%;}*/
 	.cards li	{width:288px; display:inline-block;}
 	.cards strong	{height:216px;}
