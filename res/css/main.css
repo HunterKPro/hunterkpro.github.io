@@ -70,6 +70,28 @@ height:80px;
 	.cards .c-1485 strong	{background-image:url(../img/1485.jpg);}
 	.cards .c-1509 strong	{background-image:url(../img/1509.jpg);}
 
+	.cards .c-1393 strong	{background-image:url(../img/1393.jpg);}
+	.cards .c-1417 strong	{background-image:url(../img/1417.jpg);}
+	.cards .c-1421 strong	{background-image:url(../img/1421.jpg);}
+	.cards .c-1434 strong	{background-image:url(../img/1434.jpg);}
+	.cards .c-1435 strong	{background-image:url(../img/1435.jpg);}
+	.cards .c-1442 strong	{background-image:url(../img/1442.jpg);}
+	.cards .c-1450 strong	{background-image:url(../img/1450.jpg);}
+
+	.cards .c-1482 strong	{background-image:url(../img/1482.jpg);}
+	.cards .c-1490 strong	{background-image:url(../img/1490.jpg);}
+	.cards .c-1491 strong	{background-image:url(../img/1491.jpg);}
+	.cards .c-1502 strong	{background-image:url(../img/1502.jpg);}
+	.cards .c-1506 strong	{background-image:url(../img/1506.jpg);}
+	.cards .c-1507 strong	{background-image:url(../img/1507.jpg);}
+	.cards .c-1512 strong	{background-image:url(../img/1512.jpg);}
+
+	.cards .c-1514 strong	{background-image:url(../img/1514.jpg);}
+	.cards .c-1522 strong	{background-image:url(../img/1522.jpg);}
+	.cards .c-1525 strong	{background-image:url(../img/1525.jpg);}
+	.cards .c-1526 strong	{background-image:url(../img/1526.jpg);}
+	.cards .c-1528 strong	{background-image:url(../img/1528.jpg);}
+
 .cards em {display:block; margin:8px auto; padding-top:8px; border-top:1px solid rgb(114, 98, 119);}
 .cards em:before  {display:inline-block; float:left; width:36px; height:36px; margin-right:8px; background:rgb(114, 98, 119); content:' '; overflow:hidden;}
 
