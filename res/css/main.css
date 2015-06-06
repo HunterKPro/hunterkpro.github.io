@@ -37,6 +37,7 @@ height:80px;
 #cta li:hover	{background-color:rgb(192, 128, 192); color:#ffffff;}
 #cta li:hover a, #cta a:hover	{color:#ffffff;}
 
+#logo	{margin:0 auto;}
 #nav	{vertical-align:middle;}
 #nav #logo	{line-height:80px; vertical-align:middle;}
 #nav ul {margin:0 auto; line-height:1; font-size:16px;}
