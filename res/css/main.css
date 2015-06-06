@@ -98,6 +98,9 @@ height:80px;
 }
 
 @media screen and (min-width: 800px) {
+	/*#hdr #logo	{float:left;}
+	#hdr #nav	{float:right;}
+	#hdr #nav li	{display:inline-block;}*/
 	#hero li	{height:480px;}
 	#hero img	{height:480px;}
 	.cards li	{width:320px;}
