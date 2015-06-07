@@ -15,8 +15,8 @@ body{padding:0px;
 
 .wr	{margin:0 auto; padding:0; max-width:960px;}
 
-#hdr{background-color: #c080c0;}
-#ftr{background-color: rgb(202,189,205);}
+#hdr{background-color: #c080c0; background-color: rgba(192,128,192,0.5);}
+#ftr{background-color: rgb(202,189,205); background-color: rgba(202,189,205,0.5);}
 ul{margin: 0 auto;
 padding:0;
 list-style: none;}
@@ -66,7 +66,8 @@ height:80px;
 #hero li
 {height:320px; width:100%; overflow:hidden; text-align:center;}
 
-.cards	{margin:16px 4px; text-align:center;}
+.cards	{margin:0px 4px; text-align:center;}
+.cards+.cards	{margin-top:20px;}
 .cards li {margin:4px; text-align:left; min-width:160px; background:#fff0f0; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);}
 
 .cards strong {
