@@ -46,7 +46,22 @@ height:80px;
 #nav a {display:block; padding:1em; background:rgb(160, 143, 166); color:rgb(248, 245, 239); text-decoration:none;}
 #nav a:hover {background:rgb(248, 245, 239); color:rgb(160, 143, 166);} 
 
+#ftr-nav	{margin:8px auto;}
+#ftr-nav ul{text-align: center;}
+#ftr-nav li{display:inline-block; vertical-align:middle;
+width:80px;
+height:80px;
+	background:#fff0f0; background-color:rgb(114, 98, 119); color:#fff0f0;
+	border-radius:100%; box-shadow:0 0 4px rgba(114, 98, 119, 0.25);
+}
 #ftr-nav a {display:block;}
+#ftr-nav a	{font-size:10px; color:#fff0f0;}
+#ftr-nav a:before{font-size:48px; line-height:1;display:block;margin:6px auto 0px; text-align:center;}
+#ftr-nav li:hover	{background-color:rgb(192, 128, 192); color:#ffffff;}
+#ftr-nav li:hover a, #ftr-nav a:hover	{color:#ffffff;}
+
+
+
 #hero li
 {height:320px; width:100%; overflow:hidden; text-align:center;}
 
