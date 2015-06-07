@@ -46,6 +46,7 @@ height:80px;
 #nav a {display:block; padding:1em; background:rgb(160, 143, 166); color:rgb(248, 245, 239); text-decoration:none;}
 #nav a:hover {background:rgb(248, 245, 239); color:rgb(160, 143, 166);} 
 
+#ftr p	{text-align:center;}
 #ftr-nav	{margin:8px auto;}
 #ftr-nav ul{text-align: center;}
 #ftr-nav li{display:inline-block; vertical-align:middle;
