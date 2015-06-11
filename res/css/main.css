@@ -73,7 +73,7 @@ height:80px;
 .cards strong {
 	display:block; margin:0px auto /*8px*/;
 	height:120px; width:auto; min-height:120px;
-	background:rgb(114, 98, 119) center top no-repeat; background-size:cover;
+	background:rgb(114, 98, 119) center top no-repeat; background-size:auto 100%;
 	background-color:rgba(114, 98, 119, 0.25);
 	text-indent:-999em;
 }
