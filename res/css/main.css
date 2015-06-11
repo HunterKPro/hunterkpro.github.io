@@ -118,7 +118,7 @@ height:80px;
 
 .cards em, .cards a	{display:none;}	/* comment/remove this if adding text +alex */
 
-#hero img {max-height:480px; height:320px; width:auto;}
+#hero img {max-height:480px; height:320px; /*width:auto;*/ width:100%;}
 
 
 /**** SCALE IT UP ****/
