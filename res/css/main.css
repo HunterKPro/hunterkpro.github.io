@@ -15,6 +15,11 @@ body{padding:0px;
 
 .wr	{margin:0 auto; padding:0; max-width:960px;}
 
+.l	{text-align:left;}
+.c	{text-align:center;}
+.r	{text-align:right;}
+.j	{text-align:justify;}
+
 #hdr{background-color: #c080c0; /*background-color:rgba(192,128,192,0.5);*/}
 #ftr{background-color: rgb(202,189,205); background-color: rgba(202,189,205,0.75); box-shadow:0 0px 4px rgba(114, 98, 119, 0.25);}
 ul{margin: 0 auto;
